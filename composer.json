@@ -1,0 +1,22 @@
+{
+    "name": "shelf/console",
+    "type": "shelf-module",
+    "authors": [
+        {
+            "name": "Rafael Ortega Bueno",
+            "email": "rorteg@gmail.com"
+        }
+    ],
+    "require": {
+        "zendframework/zend-servicemanager": "^3.3",
+        "symfony/console": "^3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shelf\\Console\\" : ""
+        }
+    }
+}
