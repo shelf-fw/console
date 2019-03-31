@@ -9,13 +9,5 @@ return [
         ShelfConsoleInterface::COMMANDS_KEY => [
             //Devcommits\App\Command\testCommand::class
         ]
-    ],
-    'dependencies' => [
-        'abstract_factories' => [
-            ReflectionBasedAbstractFactory::class
-        ],
-        'factories' => [
-            ShelfConsoleInterface::SHELF_APPLICATION_KEY => ConfigResolverFactory::class
-        ]
     ]
 ];
